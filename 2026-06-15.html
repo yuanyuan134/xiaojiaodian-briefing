@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta property="og:title" content="2026年6月15日 小家电行业情报AI简报">
+<meta property="og:description" content="8大模块细分版 · 品牌/市场 供应链 政策 AI动态 海外 消费者认知 智能家电/具身智能 国际局势/股市 · 更多厨电动态">
+<meta property="og:type" content="article">
+<title>2026年6月15日 小家电行业情报AI简报</title>
+<style>
+html { scroll-behavior: smooth; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif; background: #f5f7fa; color: #333; margin: 0; padding: 0; }
+.tab-bar { position: sticky; top: 0; z-index: 100; text-align: center; background: linear-gradient(135deg, #1a237e, #283593); padding: 10px 8px; overflow-x: auto; white-space: nowrap; -webkit-overflow-scrolling: touch; }
+.tab-btn { display: inline-block; padding: 8px 14px; margin: 3px 4px; background: rgba(255,255,255,0.15); color: #fff; border: none; border-radius: 20px; font-size: 14px; cursor: pointer; transition: all 0.3s; text-decoration: none; }
+.tab-btn:hover { text-decoration: none; }
+.tab-btn.active { background: #fff; color: #1a237e; font-weight: 600; box-shadow: 0 2px 8px rgba(0,0,0,0.2); }
+.content { max-width: 800px; margin: 0 auto; padding: 18px 16px; }
+.header { background: linear-gradient(135deg, #1a237e, #3949ab); border-radius: 16px; padding: 24px 20px; margin-bottom: 20px; color: #fff; text-align: center; }
+.header h1 { font-size: 22px; margin-bottom: 6px; }
+.header .date { font-size: 15px; opacity: 0.9; margin-bottom: 8px; }
+.module { display: block; }
+.module-card { background: #fff; border-radius: 14px; padding: 18px 16px; margin-bottom: 16px; box-shadow: 0 1px 4px rgba(0,0,0,0.06); }
+.module-title { font-size: 18px; font-weight: 700; padding: 14px 0 10px; border-bottom: 3px solid #3949ab; margin-bottom: 16px; display: flex; align-items: center; }
+.module-title .num { display: inline-block; width: 30px; height: 30px; background: #3949ab; color: #fff; border-radius: 50%; text-align: center; line-height: 30px; font-size: 15px; font-weight: 700; margin-right: 10px; flex-shrink: 0; }
+.news-item { padding: 14px 0; border-bottom: 1px solid #eee; }
+.news-item:last-child { border-bottom: none; }
+.sub-module-number { display: inline-block; width: 26px; height: 26px; background: #1a73e8; color: #fff; border-radius: 50%; text-align: center; line-height: 26px; font-size: 13px; font-weight: bold; margin-right: 10px; flex-shrink: 0; }
+.news-title { font-size: 17px; font-weight: 600; color: #1a237e; line-height: 1.5; margin-bottom: 6px; }
+.meta-row { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin-bottom: 10px; }
+.source-badge { display: inline-block; padding: 2px 8px; background: #e6f4ea; color: #137333; border-radius: 4px; font-size: 11px; }
+.keyword-tag { display: inline-block; padding: 3px 10px; background: #e8f0fe; color: #1a73e8; border-radius: 12px; font-size: 12px; }
+.date-tag { display: inline-block; padding: 2px 8px; background: #fef3e2; color: #e65100; border-radius: 4px; font-size: 11px; }
+.product-category { font-size: 14px; font-weight: 600; color: #3949ab; background: #e8eaf6; display: inline-block; padding: 2px 10px; border-radius: 10px; margin: 6px 0; }
+.summary-text { font-size: 15px; line-height: 1.7; color: #444; margin: 8px 0 10px; }
+.detail-list { padding-left: 0; list-style: none; margin-bottom: 12px; }
+.detail-list li { position: relative; padding-left: 20px; margin-bottom: 8px; color: #555; font-size: 15px; line-height: 1.55; text-align: left; }
+.detail-list li::before { content: "•"; position: absolute; left: 0; color: #888; font-size: 12px; top: 2px; }
+.source-link { font-size: 14px; color: #1a73e8; text-decoration: none; display: inline-block; margin-top: 4px; }
+.footer { text-align: center; padding: 30px 16px; color: #999; font-size: 13px; }
+/* 折叠区样式 */
+.collapse-wrap { margin-bottom: 16px; }
+.collapse-btn { display: block; width: 100%; padding: 14px; background: linear-gradient(135deg, #1a237e, #3949ab); color: #fff; border: none; border-radius: 14px; font-size: 16px; font-weight: 600; cursor: pointer; text-align: center; transition: all 0.3s; }
+.collapse-btn:hover { opacity: 0.9; }
+.collapse-btn .arrow { display: inline-block; transition: transform 0.3s; margin-left: 6px; }
+.collapse-btn.active .arrow { transform: rotate(180deg); }
+.collapse-content { display: none; margin-top: 12px; }
+.collapse-content.show { display: block; }
+</style>
+</head>
+<body>
+
+<div class="tab-bar" id="tabBar">
+<a href="#tab1" class="tab-btn">品牌/市场</a>
+<a href="#tab2" class="tab-btn">供应链</a>
+<a href="#tab3" class="tab-btn">政策</a>
+<a href="#tab4" class="tab-btn">AI动态</a>
+<a href="#tab5" class="tab-btn">海外</a>
+<a href="#tab6" class="tab-btn">消费者认知</a>
+<a href="#tab7" class="tab-btn">智能家电/具身智能</a>
+<a href="#tab8" class="tab-btn">国际局势/股市</a>
+</div>
+
+<div class="content">
+
+<div class="header">
+<h1>小家电行业新闻AI情报站</h1>
+<div class="date">2026年6月15日 星期一</div>
+<div>AI驱动情报采集 · 8大模块全景扫描</div>
+</div>
+
+<!-- Module 1: 品牌/市场 -->
+<div class="module" id="tab1">
+<div class="module-card">
+<div class="module-title"><span class="num">一</span>品牌/市场</div>
+
+<div class="news-item">
+<div class="news-title"><span class="sub-module-number">1</span>618监管风向骤变：反内卷从价格战转向规则战</div>
+<div class="meta-row">
+<span class="source-badge">中国家电网</span>
+<span class="keyword-tag">618监管</span>
+<span class="keyword-tag">反内卷</span>
+<span class="date-tag">2026.6.15</span>
+</div>
+<div class="summary-text">6月11日，北京市市场监管局约谈淘宝、京东、拼多多、抖音、小红书五大电商平台，通报内卷式竞争综合整治第二批典型问题，重点指向促销虚假宣传、规则公示不规范、商品经营者信息未公示等关键环节。监管关注点从"低价"延伸至"规则"，百亿补贴须明确补贴金额与出资比例，网络测评须标注利益关系，促销规则须透明可查。反内卷治理已从不理性低价延伸至整个电商生态的规则治理。</div>
+<ul class="detail-list">
+<li>要点1：反内卷治理重心从表面低价转向规则层面，百亿补贴须提供真实资金比例证明</li>
+<li>要点2：网信办与市场监管总局联合印发《网络测评活动规范》，划定夸大宣传和商测一体化红线</li>
+<li>要点3：大促生态中的商业信任重建成为监管核心目标，平台须保障商家与消费者双向知情权</li>
+</ul>
+<a class="source-link" href="https://news.cheaa.com/2026/0615/655682.shtml" target="_blank">查看原文 →</a>
+</div>
+
+<div class="news-item">
+<div class="news-title"><span class="sub-module-number">3</span>容声×蒙牛世界杯超级嘉年华落地青岛 黄健翔助阵</div>
+<div class="meta-row">
+<span class="source-badge">中国家电网</span>
+<span class="keyword-tag">世界杯营销</span>
+<span class="keyword-tag">品牌跨界</span>
+<span class="date-tag">2026.6.15</span>
+</div>
+<div class="summary-text">6月13日，容声冰箱携手蒙牛、青岛文旅在青岛奥帆中心打造世界杯超级嘉年华，足球名嘴黄健翔亲临现场揭幕。容声曦望、大冰象、方糖三大明星机型集中亮相，其中大冰象冰箱以269L超大冷冻容积和-36°C冰封锁鲜技术，可装下900支雪糕，被誉为"观赛粮仓"。这是世界杯期间家电品牌跨界体育营销的标杆案例，后续6-7月关键赛程期间还将落地全国多城联动活动。</div>
+<ul class="detail-list">
+<li>要点1：容声与蒙牛、青岛文旅三方跨界合作，以沉浸式观赛场景融合家电科技与国民乳品</li>
+<li>要点2：容声大冰象冰箱269L冷冻容积+ -36℃锁鲜技术成"观赛粮仓"，方糖冰箱搭载自动制冰功能</li>
+<li>要点3：世界杯期间家电品牌体育营销进入深水区，"跨界IP+场景体验"成为品牌年轻化核心打法</li>
+</ul>
+<a class="source-link" href="https://news.cheaa.com/2026/0615/655677.shtml" target="_blank">查看原文 →</a>
+</div>
+
+<div class="news-item">
+<div class="news-title"><span class="sub-module-number">4</span>618京东淘宝终极大促提前解锁 家电专场率先突围</div>
+<div class="meta-row">
+<span class="source-badge">新浪财经</span>
+<span class="keyword-tag">618大促</span>
+<span class="keyword-tag">家电换新</span>
+<span class="date-tag">2026.6.14</span>
+</div>
+<div class="summary-text">6月14日晚8点，京东淘宝618终极大促家电专场率先开启，比以往更早进入收官倒计时。625亿国家级以旧换新补贴叠加618收官超级红包，单件至高立减1500元。6月15日20点至6月18日的76小时被视为全周期中福利最足的黄金窗口，国补、平台红包三倍福利、品牌全线放价三方联手，家电产品成为本次618最值得关注的品类。</div>
+<ul class="detail-list">
+<li>要点1：家电专场6月14日晚8点率先解锁，成为618收官阶段第一个冲锋品类</li>
+<li>要点2：625亿国补叠加平台红包+品牌让利，单件至高可享1500元补贴，为全年最大力度</li>
+<li>要点3：内行建议提前蹲守家电专场，库存最充足、国补额度最富余时出手最为划算</li>
+</ul>
+<a class="source-link" href="https://finance.sina.com.cn/tjhz/2026-06-14/doc-inickkzv5730714.shtml" target="_blank">查看原文 →</a>
+</div>
+
+</div>
+</div>
+
+<!-- 折叠区：厨电 -->
+<div class="collapse-wrap">
+<button class="collapse-btn" onclick="this.classList.toggle('active');document.getElementById('collapseContent').classList.toggle('show')">
+📌 更多厨电动态 <span class="arrow">▼</span>
+</button>
+<div class="collapse-content" id="collapseContent">
+<div class="module-card">
+<div class="module-title"><span class="num">＋</span>厨电行业动态</div>
+
+<div class="news-item">
+<div class="news-title"><span class="sub-module-number">3</span>0涂层电饭煲市场升温 九阳、苏泊尔、美的占据高口碑榜单</div>
+<div class="meta-row">
+<span class="source-badge">站长之家</span>
+<span class="keyword-tag">0涂层电饭煲</span>
+<span class="keyword-tag">健康厨电</span>
+<span class="date-tag">2026.6.14</span>
+</div>
+<div class="summary-text">2026年618期间，0涂层电饭煲成为厨房小家电最受关注的品类之一。九阳炫饭煲40N1U采用钛+超硬化316L不锈钢0涂层内胆，配合专利风冷水润膜技术实现国标II级物理不粘；苏泊尔、美的也推出各自的0涂层电饭煲产品，三强争夺健康烹饪市场。随着消费者对食品安全和健康意识的提升，0涂层技术正从高端走向大众化。</div>
+<ul class="detail-list">
+<li>要点1：九阳炫饭煲采用"钛+超硬化316L不锈钢"0涂层内胆，搭配风冷水润膜技术解决粘锅痛点</li>
+<li>要点2：升级双驱IH加热技术实现底部与侧部双线圈交替加热，温差控制更精准</li>
+<li>要点3：0涂层电饭煲从高端走向大众化，健康烹饪正成为厨房小家电核心升级方向</li>
+</ul>
+<a class="source-link" href="https://www.chinaz.com/2026/0609/1757852.shtml" target="_blank">查看原文 →</a>
+</div>
+
+<div class="news-item">
+<div class="news-title"><span class="sub-module-number">4</span>四款主流破壁机深度横评：九阳、西屋、蓝宝、摩飞618选购参考</div>
+<div class="meta-row">
+<span class="source-badge">什么值得买</span>
+<span class="keyword-tag">破壁机</span>
+<span class="keyword-tag">选购指南</span>
+<span class="date-tag">2026.6.14</span>
+</div>
+<div class="summary-text">2026年618期间，四款主流家用破壁机横评出炉，涵盖国产品牌九阳免手洗款、欧美高端西屋、德系工艺蓝宝、网红厨电摩飞四大阵营。横评从价格、核心配置、使用体验与市场口碑等多维度展开。结果显示，免手洗和静音功能已成为破壁机的核心竞争点，九阳免手洗款在清洁便利性上表现突出，而摩飞MR4017在便携性和设计感上有差异化优势。</div>
+<ul class="detail-list">
+<li>要点1：四款主流破壁机横评覆盖国产老牌、欧美高端、德系工艺、网红厨电四大阵营</li>
+<li>要点2：免手洗功能和静音技术成为破壁机品类核心竞争方向</li>
+<li>要点3：九阳免手洗款清洁便利性领先，摩飞在设计感上具备差异化优势</li>
+</ul>
+<a class="source-link" href="https://post.smzdm.com/p/aom465q6/" target="_blank">查看原文 →</a>
+</div>
+
+<div class="news-item">
+<div class="news-title"><span class="sub-module-number">5</span>松下、美的、格兰仕入选2026微波炉十大品牌排行榜</div>
+<div class="meta-row">
+<span class="source-badge">新浪家电</span>
+<span class="keyword-tag">微波炉</span>
+<span class="keyword-tag">品牌排行</span>
+<span class="date-tag">2026.6.14</span>
+</div>
+<div class="summary-text">2026年微波炉十大品牌排行榜揭晓，格兰仕、美的、松下、海尔、东芝、西门子、老板、威力、海氏、小米家电十大品牌入选。榜单反映出微波炉市场品牌格局的基本稳定，格兰仕和美的稳居第一梯队。值得注意的是米家（小米家电）凭借智能生态优势上榜，体现了互联网品牌在传统厨房小家电领域的影响力持续扩大。</div>
+<ul class="detail-list">
+<li>要点1：格兰仕与美的稳居微波炉第一梯队，品牌格局基本稳固</li>
+<li>要点2：米家（小米家电）凭借智能生态优势成功上榜，互联网品牌渗透加速</li>
+<li>要点3：微波炉市场整体趋于成熟，智能化和生态联动成为差异化竞争突破口</li>
+</ul>
+<a class="source-link" href="https://k.sina.com.cn/article_7857201856_1d45362c00190692m0.html" target="_blank">查看原文 →</a>
+</div>
+
+</div>
+</div>
+</div>
+
+<!-- Module 2: 供应链 -->
+<div class="module" id="tab2">
+<div class="module-card">
+<div class="module-title"><span class="num">二</span>供应链</div>
+
+<div class="news-item">
+<div class="news-title"><span class="sub-module-number">1</span>SK海力士筹备向主要客户提供HBM4E样品 最早本月出货</div>
+<div class="meta-row">
+<span class="source-badge">36氪/财联社</span>
+<span class="keyword-tag">HBM4E</span>
+<span class="keyword-tag">存储芯片</span>
+<span class="date-tag">2026.6.15</span>
+</div>
+<div class="summary-text">据业内人士透露，SK海力士正筹备向主要客户送样HBM4E，首批样品最快本月出货。HBM4E计划明年正式量产，今年下半年须完成客户测试验证与优化流程。当前存储芯片订单已排至2028年，库存水位降至历史最低。AI需求驱动的存储芯片结构性短缺持续，SK海力士与三星电子股价双双上涨超6%。</div>
+<ul class="detail-list">
+<li>要点1：SK海力士HBM4E样品最快本月发货，为明年正式量产铺路</li>
+<li>要点2：AI需求驱动存储芯片订单已排至2028年，结构性短缺持续加剧</li>
+<li>要点3：SK海力士、三星电子股价均大涨超6%，存储芯片景气度高涨</li>
+</ul>
+<a class="source-link" href="https://36kr.com/newsflashes/3853695838016515" target="_blank">查看原文 →</a>
+</div>
+
+<div class="news-item">
+<div class="news-title"><span class="sub-module-number">2</span>6月份PS市场或重心下探，ABS价格呈偏空走势</div>
+<div class="meta-row">
+<span class="source-badge">电器杂志</span>
+<span class="keyword-tag">塑胶原料</span>
+<span class="keyword-tag">成本走势</span>
+<span class="date-tag">2026.6.14</span>
+</div>
+<div class="summary-text">据电器杂志6月原料走势报告，5月PS市场价格震荡略弱运行，华东525均价10388元/吨，环比降1.54%。苯乙烯价格震荡走弱、港口去库存不及预期导致成本支撑不足。ABS市场5月整体供应维持高位，家电订单量减少致厂家采购仅维持刚需。EPS价格5月同样大幅下跌。总体来看，6月家电上游塑胶原料价格承压下行，有利于降低小家电企业的包材成本。</div>
+<ul class="detail-list">
+<li>要点1：PS价格5月环比降1.54%，6月预计重心继续下探</li>
+<li>要点2：ABS供应维持高位但家电终端需求缩减，厂家采购仅刚需</li>
+<li>要点3：塑胶原料价格下行有助于缓解小家电企业包材成本压力</li>
+</ul>
+<a class="source-link" href="https://www.dianqizazhi.com/2026/06/12/72929.html" target="_blank">查看原文 →</a>
+</div>
+
+<div class="news-item">
+<div class="news-title"><span class="sub-module-number">3</span>6月底铜关税大限倒计时 全球"抢铜大戏"持续上演</div>
+<div class="meta-row">
+<span class="source-badge">博易大师</span>
+<span class="keyword-tag">铜价</span>
+<span class="keyword-tag">关税</span>
+<span class="date-tag">2026.6.14</span>
+</div>
+<div class="summary-text">2026年前五个月，LME铜再涨9.0%，COMEX铜涨12.3%。截至5月，COMEX铜期货一度突破每磅6.7美元创历史新高，LME铜价盘中突破14000美元/吨附近。6月底铜关税大限逼近，全球市场掀起"抢铜潮"。一台1.5匹空调用铜量达3-5公斤，铜材成本占整机22%-25%，铜价持续高位对家电企业盈利能力构成显著压力。</div>
+<ul class="detail-list">
+<li>要点1：LME铜前5月再涨9%，COMEX铜涨12.3%创历史新高</li>
+<li>要点2：6月底铜关税大限倒计时，全球市场抢铜行情持续升温</li>
+<li>要点3：铜材占空调等家电整机成本22%-25%，成本压力持续传导至终端</li>
+</ul>
+<a class="source-link" href="https://baijiahao.baidu.com/s?id=1867058732490152982" target="_blank">查看原文 →</a>
+</div>
+
+</div>
+</div>
+
+<!-- Module 3: 政策 -->
+<div class="module" id="tab3">
+<div class="module-card">
+<div class="module-title"><span class="num">三</span>政策</div>
+
+<div class="news-item">
+<div class="news-title"><span class="sub-module-number">1</span>工信部印发《"人工智能+信息通信"创新发展实施意见》</div>
+<div class="meta-row">
+<span class="source-badge">电器杂志</span>
+<span class="keyword-tag">AI政策</span>
+<span class="keyword-tag">智慧家居</span>
+<span class="date-tag">2026.6.14</span>
+</div>
+<div class="summary-text">6月3日，工信部印发《"人工智能+信息通信"创新发展实施意见（2026-2028年）》，明确推进5G-A/6G、光传输网、智算网络建设。该政策对家电行业而言意义深远——智慧家居的底层通信基础设施将被全面重写。美的已作为首批全屋智能企业完成微信AI生态接入适配，家电产品的AI交互能力将在新一轮基建升级中实现跨越。</div>
+<ul class="detail-list">
+<li>要点1：工信部AI+信息通信政策为智慧家居提供底层通信基础设施升级框架</li>
+<li>要点2：5G-A/6G与智算网络建设将深刻改变家电产品的AI交互能力</li>
+<li>要点3：美的等龙头企业已率先完成微信AI生态接入，政策落地节奏加快</li>
+</ul>
+<a class="source-link" href="https://www.dianqizazhi.com/2026/06/11/72926.html" target="_blank">查看原文 →</a>
+</div>
+
+<div class="news-item">
+<div class="news-title"><span class="sub-module-number">2</span>杭州发布人工智能终端产业三年行动方案</div>
+<div class="meta-row">
+<span class="source-badge">电器杂志</span>
+<span class="keyword-tag">人工智能终端</span>
+<span class="keyword-tag">地方政策</span>
+<span class="date-tag">2026.6.14</span>
+</div>
+<div class="summary-text">杭州市经信局发布《加快发展人工智能终端产业三年行动方案（2025-2027年）》，目标到2027年人工智能终端产业规模力争达到300亿元。该方案涵盖智能家电、智能穿戴、智能机器人等领域，为家电企业AI终端化转型提供的政策指引，有利于杭州及周边家电产业链企业加速智能化升级。</div>
+<ul class="detail-list">
+<li>要点1：杭州目标2027年AI终端产业规模达300亿元，涵盖智能家电等领域</li>
+<li>要点2：地方政策为家电企业AI终端化转型提供专项资金和产业配套支持</li>
+<li>要点3：该政策将加速杭州及长三角地区家电产业链智能化升级进程</li>
+</ul>
+<a class="source-link" href="https://www.dianqizazhi.com/2026/06/09/72901.html" target="_blank">查看原文 →</a>
+</div>
+
+</div>
+</div>
+
+<!-- Module 4: AI动态 -->
+<div class="module" id="tab4">
+<div class="module-card">
+<div class="module-title"><span class="num">四</span>AI动态</div>
+
+<div class="news-item">
+<div class="news-title"><span class="sub-module-number">1</span>AI驱动需求爆发 光芯片产业迎升级与国产化机遇</div>
+<div class="meta-row">
+<span class="source-badge">中国家电网</span>
+<span class="keyword-tag">光芯片</span>
+<span class="keyword-tag">AI算力</span>
+<span class="date-tag">2026.6.15</span>
+</div>
+<div class="summary-text">AI算力浪潮推动光芯片从传统通信配件升级为战略性资源。工信部出台政策支持高端光电芯片和CPO研发，800G光模块持续放量，1.6T产品进入试产阶段。2026年全球光通信市场规模有望达390亿美元，800G与1.6T光模块合计市场规模预计146亿美元。但25G及以上高端高速光芯片国产化率仅4%-5%，国产替代窗口期已至。</div>
+<ul class="detail-list">
+<li>要点1：AI算力驱动光芯片升级为战略性资源，2026年全球市场达390亿美元</li>
+<li>要点2：800G光模块放量、1.6T产品试产，高端光芯片国产化率仅4%-5%</li>
+<li>要点3：薄膜铌酸锂、LPO、CPO三大技术路线并行推进，2026-2027年为关键冲刺期</li>
+</ul>
+<a class="source-link" href="https://news.cheaa.com/2026/0615/655679.shtml" target="_blank">查看原文 →</a>
+</div>
+
+<div class="news-item">
+<div class="news-title"><span class="sub-module-number">2</span>微信AI生态正式开放 美的TCL首批接入智能家居场景</div>
+<div class="meta-row">
+<span class="source-badge">搜狐科技</span>
+<span class="keyword-tag">微信AI</span>
+<span class="keyword-tag">智能家居</span>
+<span class="date-tag">2026.6.14</span>
+</div>
+<div class="summary-text">6月8日，微信正式发布《关于开发者接入微信AI生态的指引》，面向第三方开发者开放AI Agent能力。美的已作为首批全屋智能内测企业完成空调、热水器、烟机等核心品类接入适配；TCL亦完成电视、空调的接入测试。微信AI Agent让家电从"被动响应"升级为"主动服务"，智能家居行业迎来Agent时代变革。</div>
+<ul class="detail-list">
+<li>要点1：微信AI生态正式向第三方开放，AI Agent能力赋能智能家居</li>
+<li>要点2：美的、TCL首批完成接入，覆盖空调、热水器、电视等核心品类</li>
+<li>要点3：家电从"被动响应指令"向"主动预判需求"的范式转变正式启动</li>
+</ul>
+<a class="source-link" href="https://www.sohu.com/a/1034888707_121956424" target="_blank">查看原文 →</a>
+</div>
+
+</div>
+</div>
+
+<!-- Module 5: 海外 -->
+<div class="module" id="tab5">
+<div class="module-card">
+<div class="module-title"><span class="num">五</span>海外</div>
+
+<div class="news-item">
+<div class="news-title"><span class="sub-module-number">1</span>海关总署：2026年5月中国家电出口41989.2万台</div>
+<div class="meta-row">
+<span class="source-badge">海关总署</span>
+<span class="keyword-tag">家电出口</span>
+<span class="keyword-tag">外贸数据</span>
+<span class="date-tag">2026.6.14</span>
+</div>
+<div class="summary-text">海关总署6月9日数据显示，2026年5月中国出口家用电器41989.2万台；1-5月累计出口191754.9万台，同比增长4.1%。数据显示中国家电出口保持温和增长态势，但增速较2025年明显放缓，主要受全球贸易摩擦加剧、部分市场关税壁垒抬升等因素影响。白电和清洁电器仍为出口主力品类。</div>
+<ul class="detail-list">
+<li>要点1：1-5月累计出口19.18亿台，同比增长4.1%，增速趋缓</li>
+<li>要点2：贸易摩擦与关税壁垒是出口增速放缓的主要制约因素</li>
+<li>要点3：白电和清洁电器仍为出口主力品类，拉美和新兴市场增速亮眼</li>
+</ul>
+<a class="source-link" href="https://www.cdgtw.net/kuaixun/746577.html" target="_blank">查看原文 →</a>
+</div>
+
+<div class="news-item">
+<div class="news-title"><span class="sub-module-number">2</span>全球扫地机Q1榜单：追觅销量销售额双第一，国产品牌包揽前五</div>
+<div class="meta-row">
+<span class="source-badge">百家号/IDC</span>
+<span class="keyword-tag">扫地机器人</span>
+<span class="keyword-tag">全球市占率</span>
+<span class="date-tag">2026.6.14</span>
+</div>
+<div class="summary-text">IDC发布的《全球家用智能扫地机器人市场季度跟踪报告》显示，2026年第一季度，追觅拿下全球销量与销售额双第一。全球销量前五名均为中国品牌：追觅、石头、科沃斯、小米、云鲸。国产品牌在全球扫地机市场的统治地位进一步巩固，中国品牌在技术创新和成本控制上的双重优势成为核心竞争力。</div>
+<ul class="detail-list">
+<li>要点1：追觅Q1全球销量销售额双第一，中国品牌包揽全球前五</li>
+<li>要点2：国产品牌在技术创新和成本控制上的双重优势驱动全球化进程</li>
+<li>要点3：扫地机器人成为中国智造全球化的标杆品类之一</li>
+</ul>
+<a class="source-link" href="https://baijiahao.baidu.com/s?id=1867133378392766315" target="_blank">查看原文 →</a>
+</div>
+
+<div class="news-item">
+<div class="news-title"><span class="sub-module-number">3</span>海尔智家即将在巴西发布全套高端新品</div>
+<div class="meta-row">
+<span class="source-badge">海尔官网</span>
+<span class="keyword-tag">海尔</span>
+<span class="keyword-tag">巴西市场</span>
+<span class="date-tag">2026.6.14</span>
+</div>
+<div class="summary-text">海尔智家即将在巴西发布全套高端新产品，深耕拉美市场。海尔Q1实现营收736.87亿元、归母净利润46.52亿元。海尔计划2026年在一到三线市场新增卡萨帝100家体验中心与300家旗舰店，同时在区县市场新建超3000家专卖店。海尔出海战略从"产品出口"向"品牌出海+本土化运营"全面升级。</div>
+<ul class="detail-list">
+<li>要点1：海尔在巴西发布全套高端新品，拉美市场成出海新战略重点</li>
+<li>要点2：Q1营收736.87亿元，归母净利润46.52亿元，盈利能力稳步提升</li>
+<li>要点3：从"产品出口"转向"品牌出海+本土化运营"的全球化2.0模式</li>
+</ul>
+<a class="source-link" href="https://www.haier.com/about_haier/xinwen/20260509_290381.shtml" target="_blank">查看原文 →</a>
+</div>
+
+</div>
+</div>
+
+<!-- Module 6: 消费者认知 -->
+<div class="module" id="tab6">
+<div class="module-card">
+<div class="module-title"><span class="num">六</span>消费者认知</div>
+
+<div class="news-item">
+<div class="news-title"><span class="sub-module-number">1</span>家电行业"烧钱换份额"困局：科沃斯增收不增利，渠道扩张加剧内卷</div>
+<div class="meta-row">
+<span class="source-badge">界面新闻</span>
+<span class="keyword-tag">行业困局</span>
+<span class="keyword-tag">渠道扩张</span>
+<span class="date-tag">2026.6.14</span>
+</div>
+<div class="summary-text">据界面新闻报道，家电行业正陷入"烧钱换份额"的困局。科沃斯Q1营收同比增长27.06%，但净利润同比下降14.73%，典型的增收不增利。美的4万多家门店与海尔计划新建超3000家专卖店形成鲜明对比，渠道扩张正在加剧行业竞争内卷。消费者对体验式购物的需求上升，但高昂的渠道成本正持续侵蚀企业利润。</div>
+<ul class="detail-list">
+<li>要点1：科沃斯Q1营收增27%但净利降14.7%，增收不增利成行业普遍现象</li>
+<li>要点2：各大品牌竞相扩张线下渠道，渠道成本攀升挤压利润空间</li>
+<li>要点3：消费者体验式购物需求上升与渠道成本矛盾持续激化</li>
+</ul>
+<a class="source-link" href="https://www.jiemian.com/article/14522936.html" target="_blank">查看原文 →</a>
+</div>
+
+<div class="news-item">
+<div class="news-title"><span class="sub-module-number">2</span>618消费趋势：健康化、专业化、精细化成家电清洗市场三大方向</div>
+<div class="meta-row">
+<span class="source-badge">百家用</span>
+<span class="keyword-tag">健康消费</span>
+<span class="keyword-tag">家电清洗</span>
+<span class="date-tag">2026.6.14</span>
+</div>
+<div class="summary-text">2026年家电清洗市场呈现健康化、专业化、精细化三大趋势。消费者对家电清洗服务的要求从"洗干净"升级为"消毒杀菌、除垢除味、环保安全"全方位需求。服务模式从"一次性清洗"转向"年度保养套餐"，锁定长期客户。细分品类覆盖空调、油烟机、洗衣机、热水器、冰箱、饮水机等，专业度更高的服务体验成为核心竞争力。</div>
+<ul class="detail-list">
+<li>要点1：健康消费驱动家电清洗从"可选服务"升级为"刚需消费"</li>
+<li>要点2：服务模式从一次性转向"年度保养套餐"，锁定长期客户关系</li>
+<li>要点3：细分品类覆盖广泛，专业化和精细化成为差异化竞争关键</li>
+</ul>
+<a class="source-link" href="https://baijiahao.baidu.com/s?id=1867416714531334544" target="_blank">查看原文 →</a>
+</div>
+
+</div>
+</div>
+
+<!-- Module 7: 智能家电/具身智能 -->
+<div class="module" id="tab7">
+<div class="module-card">
+<div class="module-title"><span class="num">七</span>智能家电/具身智能</div>
+
+<div class="news-item">
+<div class="news-title"><span class="sub-module-number">2</span>人形机器人分化发展：消费端价格跳水 工业端稳价重落地</div>
+<div class="meta-row">
+<span class="source-badge">中国家电网</span>
+<span class="keyword-tag">人形机器人</span>
+<span class="keyword-tag">分化发展</span>
+<span class="date-tag">2026.6.15</span>
+</div>
+<div class="summary-text">人形机器人市场呈现明显分化：消费级产品价格持续下探，而工业级机器人因对精度和稳定性要求严苛，价格难以大幅下调。轮式机器人凭借安全可靠优势成为工业场景首选，已占整体出货量近半数。资本市场风向转变，超七成资金转向减速器、传感器等上游核心零部件。预判未来三到五年机器人将率先在工业领域普及，家庭场景仍需等待技术与成本进一步突破。</div>
+<ul class="detail-list">
+<li>要点1：消费端价格跳水vs工业端稳价重落地，赛道呈现明显分化</li>
+<li>要点2：轮式机器人占出货量近半数，为当前产业落地主流形态</li>
+<li>要点3：资本转向上游核心零部件，国产替代与量产能力成投资重点</li>
+</ul>
+<a class="source-link" href="https://news.cheaa.com/2026/0615/655680.shtml" target="_blank">查看原文 →</a>
+</div>
+
+<div class="news-item">
+<div class="news-title"><span class="sub-module-number">3</span>"大晓机器人"完成天使+轮融资 上半年累计融资数亿美元</div>
+<div class="meta-row">
+<span class="source-badge">36氪</span>
+<span class="keyword-tag">机器人融资</span>
+<span class="keyword-tag">资本动态</span>
+<span class="date-tag">2026.6.15</span>
+</div>
+<div class="summary-text">具身智能企业"大晓机器人"完成天使+轮融资，吸引吉利资本、达晨财智、深创投、上海科创基金等众多投资方加入，老股东商汤国香资本持续增资。2026年上半年已累计融资数亿美元。然而行业整体降温趋势明显：5月具身智能行业共51起融资，金额86亿元，同比增长145.5%但环比下滑58.65%，行业正从概念追逐转向理性审视。</div>
+<ul class="detail-list">
+<li>要点1：大晓机器人获吉利资本、达晨财智、深创投等多家知名机构投资</li>
+<li>要点2：5月具身智能行业融资额86亿元，同比增145.5%但环比降58.65%</li>
+<li>要点3：资本对具身智能态度从狂热转向理性，现金流和商业化能力成核心衡量指标</li>
+</ul>
+<a class="source-link" href="https://36kr.com/newsflashes/3853718682375433" target="_blank">查看原文 →</a>
+</div>
+
+</div>
+</div>
+
+<!-- Module 8: 国际局势/股市 -->
+<div class="module" id="tab8">
+<div class="module-card">
+<div class="module-title"><span class="num">八</span>国际局势/股市</div>
+
+<div class="news-item">
+<div class="news-title"><span class="sub-module-number">1</span>SpaceX纳斯达克上市 首日大涨约19% 估值达1.77万亿美元</div>
+<div class="meta-row">
+<span class="source-badge">中国家电网</span>
+<span class="keyword-tag">SpaceX</span>
+<span class="keyword-tag">IPO</span>
+<span class="date-tag">2026.6.15</span>
+</div>
+<div class="summary-text">6月12日，SpaceX在纳斯达克上市，发行价每股135美元，募资750亿美元，对应估值约1.77万亿美元，成为全球有史以来最大规模IPO。录得超四倍认购，总认购规模突破2500亿美元。SpaceX的业务被拆分为太空业务、Starlink连接业务和AI业务三块。Starlink 2025年营收约113亿美元，经营利润44亿美元，在全球164个国家和地区拥有1030万订阅用户。中信证券研报认为SpaceX上市将有力支撑火箭和卫星迭代，并开拓包括太空算力在内的AI空间。</div>
+<ul class="detail-list">
+<li>要点1：SpaceX创全球最大IPO纪录，首日涨19%，募资750亿美元</li>
+<li>要点2：Starlink 2025年营收113亿美元，全球1030万订阅用户</li>
+<li>要点3：中信证券看好SpaceX"太空+通信+AI"组合叙事的长期价值</li>
+</ul>
+<a class="source-link" href="https://news.cheaa.com/2026/0615/655683.shtml" target="_blank">查看原文 →</a>
+</div>
+
+<div class="news-item">
+<div class="news-title"><span class="sub-module-number">2</span>日经225指数历史首次触及69000点 涨幅达4.52%</div>
+<div class="meta-row">
+<span class="source-badge">36氪</span>
+<span class="keyword-tag">日本股市</span>
+<span class="keyword-tag">日经225</span>
+<span class="date-tag">2026.6.15</span>
+</div>
+<div class="summary-text">6月15日，日经225指数历史首次触及69000点，日内涨4.52%，再创历史新高。SK海力士、三星电子股价均涨超6%，存储芯片和AI概念股领涨。日元空头押注增至九年高位，套利交易回升。杠杆基金增加日元空头头寸至超11.5万份合约，创2017年11月以来最高。韩国政府同步启动"超级创新经济项目"，计划投资5000亿韩元攻关下一代功率半导体。</div>
+<ul class="detail-list">
+<li>要点1：日经225触及69000点日内涨4.52%，SK海力士和三星大涨超6%</li>
+<li>要点2：日元空头押注达九年高位，套利交易回升</li>
+<li>要点3：韩国政府启动5000亿韩元"超级创新经济项目"攻关功率半导体</li>
+</ul>
+<a class="source-link" href="https://36kr.com/newsflashes/3853703369593862" target="_blank">查看原文 →</a>
+</div>
+
+<div class="news-item">
+<div class="news-title"><span class="sub-module-number">3</span>美伊和平协议签署在即 全球资本市场避险情绪降温</div>
+<div class="meta-row">
+<span class="source-badge">雪球/多方</span>
+<span class="keyword-tag">中东局势</span>
+<span class="keyword-tag">地缘政治</span>
+<span class="date-tag">2026.6.14</span>
+</div>
+<div class="summary-text">市场消息称美伊定于14日签署和平协议，中东局势迎来重大转折。此前特朗普通过社交媒体宣布取消对伊朗军事行动，地缘避险情绪快速释放。受此影响，国际油价出现回落，全球资本市场风险偏好回升。霍尔木兹海峡航道安全预期改善，对全球能源价格和贸易物流成本将产生深远影响，有利家电出口企业的运费和原材料成本控制。</div>
+<ul class="detail-list">
+<li>要点1：美伊和平协议即将签署，中东地缘风险显著缓解</li>
+<li>要点2：国际油价回落有利于降低家电企业运费和原材料成本</li>
+<li>要点3：霍尔木兹海峡航道安全预期改善，全球贸易物流成本有望下行</li>
+</ul>
+<a class="source-link" href="https://xueqiu.com/6025808271/394321646" target="_blank">查看原文 →</a>
+</div>
+
+<div class="news-item">
+<div class="news-title"><span class="sub-module-number">4</span>中信证券：大航天时代启航，SpaceX上市是标志性事件</div>
+<div class="meta-row">
+<span class="source-badge">36氪</span>
+<span class="keyword-tag">大航天时代</span>
+<span class="keyword-tag">投资策略</span>
+<span class="date-tag">2026.6.15</span>
+</div>
+<div class="summary-text">中信证券研报指出，SpaceX上市是全球资本市场里程碑事件。尽管国内可回收火箭发射节奏时有波动，但可回收技术突破后产业具备指数级增长的潜力。太空算力开辟更广阔产业空间，聚焦"核心资产"及"通胀环节"成为未来投资主线。同日华泰证券策略建议短期均衡配置，待科技板块拥挤度压力释放后吸筹，看好中报交易开启后科技主线回归。</div>
+<ul class="detail-list">
+<li>要点1：中信证券认为SpaceX上市标志大航天时代启航</li>
+<li>要点2：华泰证券建议短期均衡配置，看好科技主线后续回归</li>
+<li>要点3：霍尔木兹海峡放开预期下传统行业或迎来修复窗口</li>
+</ul>
+<a class="source-link" href="https://36kr.com/newsflashes/3853707018277894" target="_blank">查看原文 →</a>
+</div>
+
+</div>
+</div>
+
+<div class="footer">
+<p>数据来源：中国家电网、电器杂志、奥维云网、海关总署、新浪财经、雪球等</p>
+<p>生成时间：2026年6月15日 08:45</p>
+<p>开发者：信息部</p>
+</div>
+
+</div>
+
+<script>
+(function() {
+var modules = document.querySelectorAll('.module');
+var tabs = document.querySelectorAll('.tab-btn');
+var tabBar = document.getElementById('tabBar');
+if (!modules.length || !tabs.length) return;
+
+function scrollTabIntoView(el) {
+if (!tabBar || !el) return;
+var barRect = tabBar.getBoundingClientRect();
+var elRect = el.getBoundingClientRect();
+if (elRect.left < barRect.left || elRect.right > barRect.right) {
+el.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+}
+}
+
+function setActiveTab(idx) {
+tabs.forEach(function(t) { t.classList.remove('active'); });
+if (tabs[idx]) {
+tabs[idx].classList.add('active');
+scrollTabIntoView(tabs[idx]);
+}
+}
+
+function highlightCurrent() {
+var activeIdx = 0;
+modules.forEach(function(m, i) {
+var rect = m.getBoundingClientRect();
+if (rect.top < 200) activeIdx = i;
+});
+setActiveTab(activeIdx);
+}
+
+if (tabs[0]) tabs[0].classList.add('active');
+
+tabs.forEach(function(t, i) {
+t.addEventListener('click', function() {
+setTimeout(function() { setActiveTab(i); }, 100);
+});
+});
+
+if (window.IntersectionObserver) {
+var observer = new IntersectionObserver(function(entries) {
+entries.forEach(function(entry) {
+if (entry.isIntersecting) {
+var idx = Array.prototype.indexOf.call(modules, entry.target);
+if (idx >= 0 && idx < tabs.length) setActiveTab(idx);
+}
+});
+}, { threshold: 0.2, rootMargin: '-50px 0px 0px 0px' });
+modules.forEach(function(m) { observer.observe(m); });
+}
+
+window.addEventListener('scroll', function() { highlightCurrent(); }, { passive: true });
+})();
+</script>
+
+</body>
+</html>
